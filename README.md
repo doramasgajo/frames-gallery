@@ -8,7 +8,7 @@
 ![CSS](https://img.shields.io/badge/CSS-800080?logo=css&logoColor=white)
 
 [The Frames Gallery **website**](https://framesgallery.doramasgajo.com/)  
-[The Frames Gallery **last release**](https://github.com/doramasgajo/frames-gallery/releases/tag/v0.1.0)  
+[The Frames Gallery **latest release**](https://github.com/doramasgajo/frames-gallery/releases/latest)  
 [The Frames Gallery **repository**](https://github.com/doramasgajo/frames-gallery)  
 
 ## :rocket: Getting started
