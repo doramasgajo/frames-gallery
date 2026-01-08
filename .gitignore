@@ -1,0 +1,10 @@
+# Dependencies
+package-lock.json
+/node_modules
+
+# Production
+/build
+
+# Editor directories
+/.vscode
+/.idea
