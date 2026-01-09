@@ -1,3 +1,17 @@
 * {
-    margin: 0px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-primary: #000000;
+  --bg-secondary: #1c1c1e;
+  --bg-translucent: rgba(28, 28, 30, 0.65);
+  --text-primary: #ffffff;
+  --text-secondary: #86868b;
+  --accent-color: #007aff;
+  --divider: #38383a;
+  --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --transition-speed: 0.3s;
 }

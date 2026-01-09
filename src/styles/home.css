@@ -1,82 +1,11 @@
-:root {
-  --bg-dark: black;
-  --text-main: white;
-  --text-dim: gray;
-  --accent: #800080;
-  --transition-speed: 1.5s;
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
-.page {
-  background-color: var(--bg-dark);
-  color: var(--text-main);
-  text-align: center;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+body.modal-open {
   overflow: hidden;
-}
-
-.content-wrapper {
-  animation: fadeInUp var(--transition-speed) ease-out forwards;
-}
-
-.main-title {
-  font-size: 3rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  font-family: 'serif', 'Playfair Display';
-}
-
-.accent-line {
-  width: 200px;
-  height: 1px;
-  background: var(--accent);
-  margin: 2rem auto;
-}
-
-.text {
-  font-size: 1rem;
-  letter-spacing: 0.25rem;
-  color: var(--text-dim);
-  text-transform: uppercase;
-}
-
-.status-container {
-  margin-top: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.loading-dots {
-  display: inline-block;
-  width: 2rem;
-  text-align: left;
-}
-
-.loading-dots::after {
-  content: '';
-  animation: dot-animation 2.5s steps(4, end) infinite;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes dot-animation {
-  0% {content: '';}
-  25% {content: '.';}
-  50% {content: '..';}
-  75% {content: '...';}
-  100% {content: '';}
 }
