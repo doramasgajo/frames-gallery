@@ -16,7 +16,7 @@ Before starting, make sure you have `Node.js` installed in your system.
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/frames-gallery.git
+git clone https://github.com/doramasgajo/frames-gallery.git
 ```
 
 Navigate into the project folder:
