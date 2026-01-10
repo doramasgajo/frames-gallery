@@ -1,4 +1,7 @@
 # The Frames Gallery
+
+![Thumbnail](https://res.cloudinary.com/doramasgajo/image/upload/v1768007286/frames-gallery-thumbnail_timyok.png)
+
 **The Frames Gallery** is a media gallery for displaying videogames screen shots and video captures.
 
 ![Node.js](https://img.shields.io/badge/Node.js-800080?logo=node.js&logoColor=white)
@@ -9,8 +12,7 @@
 
 [The Frames Gallery **website**](https://framesgallery.doramasgajo.com/)  
 [The Frames Gallery **latest release**](https://github.com/doramasgajo/frames-gallery/releases/latest)  
-[The Frames Gallery **repository**](https://github.com/doramasgajo/frames-gallery)  
-![Thumbnail](https://res.cloudinary.com/doramasgajo/image/upload/v1768007286/frames-gallery-thumbnail_timyok.png)
+[The Frames Gallery **repository**](https://github.com/doramasgajo/frames-gallery)
 
 ## :sparkles: Features
 - Beautiful responsive gallery
